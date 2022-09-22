@@ -7,9 +7,9 @@ RUN apt-get update && \
  
 
 RUN git clone https://github.com/shambulingp/mod_authn_dbd.git && \
-    cd mod_authn_dbd && \
+    cd mod_authn_dbd/httpd && \
 	autoreconf -ivf && \
-    PKG_CONFIG_PATH=/usr/local ./httpd/configure --with-included-apr && \
+    PKG_CONFIG_PATH=/usr/local ./configure --with-included-apr && \
     make && \
     make install
 
