@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 
 BUILD_SUBDIRS = $(AP_BUILD_SRCLIB_DIRS)
 CLEAN_SUBDIRS = $(AP_CLEAN_SRCLIB_DIRS)
 
 include $(top_builddir)/build/rules.mk
+=======
+
+BUILD_SUBDIRS = $(AP_BUILD_SRCLIB_DIRS)
+CLEAN_SUBDIRS = $(AP_CLEAN_SRCLIB_DIRS)
+
+include $(top_builddir)/build/rules.mk
+>>>>>>> ad2756a6c72d5d1bde3ddf7de1443f2948cdb47a
